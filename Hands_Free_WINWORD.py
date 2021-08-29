@@ -101,66 +101,6 @@ def write_content():
                 pyautogui.write(sd)
                 pyautogui.press('space')
 
-
-                """"if "activate" in str(writing).lower():
-                    yz = writing.replace("activate", "")
-                    if "next line" in str(yz).lower():
-                        pyautogui.press("enter")
-                        x = yz.replace("next line", " ")
-                    if "bold" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("b")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("bold", "")
-                    if "italics" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("i")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("italics", "")
-                    if "underline" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("u")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("underline", "")
-                    if "left align" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("l")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("left align", "")
-                    if "right align" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("r")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("right align", "")
-                    if "center align" in str(yz).lower():
-                        pyautogui.keyDown("ctrl")
-                        pyautogui.press("e")
-                        pyautogui.keyUp("ctrl")
-                        x = yz.replace("centre align", "")
-
-                    if "disable" in str(yz).lower():
-                        yz1 = yz.replace("deactivate", " ")
-                        if "bold" in str(yz1).lower():
-                            pyautogui.keyDown("ctrl")
-                            pyautogui.press("b")
-                            pyautogui.keyUp("ctrl")
-                            x = yz1.replace("disable bold", "")
-                        if "disable italics" in str(yz1).lower():
-                            pyautogui.keyDown("ctrl")
-                            pyautogui.press("i")
-                            pyautogui.keyUp("ctrl")
-                            x = yz1.replace("disable italics", "")
-                        if "disable underline" in str(yz1).lower():
-                            pyautogui.keyDown("ctrl")
-                            pyautogui.press("u")
-                            pyautogui.keyUp("ctrl")
-                            x = yz1.replace("disable underline", "")
-
-                    #xyz = str(x)
-                    #pyautogui.write(xyz)
-                    #pyautogui.press('space')"""
-
-
                 continue
 
                 if "stop" in str(writing).lower():
